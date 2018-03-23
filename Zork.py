@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import Observer
 import House
 import Player
@@ -5,7 +7,6 @@ import Person
 import Monster
 import Monsters
 
-# 
 class World(Observer.Observer):
 	def __init__(self):
 		self.houses = []
