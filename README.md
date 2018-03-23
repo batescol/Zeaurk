@@ -16,6 +16,7 @@ Just a couple of things
   * Types of monsters in a house
 * The weapon randomizer may give you multiple HersheyKisses, even though one has infinite uses
 * The attack option enumerator gives options to use any one of your weapons, even if there are multiple of the same weapon
+* Commands *are* case sensitive
 * Because of the way the observer pattern works (or possibly my interpretation of its use here), we can't print out any information between attacking and either winning or losing (e.g. damage dealt or taken)
 * Basically all of the monster types differ only by their properties (not by their functionality). I think this is a good sign that this is a bad place to use an OOP-design this deep, but it *does* provide a way to add special functionality to any new monster types added
 * It's really hard. I didn't think it was fair to be able to attack every monster while only being attacked by one, so I made sqrt(num_npcs_in_house) monsters attack during the NPC attack phase. I was able to beat one house after a few tries (when I was testing the win conditions), but it's not easy. Plus, you use up weapons and there is no way to get more. I think it might be impossible to win
